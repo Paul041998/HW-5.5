@@ -4,7 +4,7 @@ let numberToThePowerOfThree = false;
 
 for (let i = 0; i <= userNumber; i++) {
   if (power === userNumber) {
-    alert((userNumber = "можна отримати як 3 у ступені " + i + "."));
+    alert((userNumber + "можна отримати як 3 у ступені " + i + "."));
     numberToThePowerOfThree = true;
     break;
   }
